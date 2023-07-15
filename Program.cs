@@ -14,7 +14,15 @@ namespace HelloWorld
             Console.WriteLine($"{name} is ready to learn C#");
             const int num1 = 17;
             int num2 = 32;
-            Console.WriteLine(num1+num2);
+            int x=7, y=42, z=99;
+            Console.WriteLine(num1+num2); //print value of num1+num2
+            Console.WriteLine(y-x+z);
+            // Data Types
+            // int myNum = 5; // Interger (whole number) Use L for long numbers 150000000000L
+            // double myDoubleNum = 5.99D; // Floating point number use F for float and D for Double number
+            // char myLetter = 'M'; // Character
+            // bool myBool = true // Boolean lowercase
+            // string myText = "String"; // String
 
             // write code above this line in order to not have to start over (Practice Comment)
             Console.Write($"{Environment.NewLine}Press any key to exit...");
