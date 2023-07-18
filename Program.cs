@@ -23,6 +23,28 @@ namespace HelloWorld
             // char myLetter = 'M'; // Character
             // bool myBool = true // Boolean lowercase
             // string myText = "String"; // String
+            
+            // implicit Casting
+            int myInt = 9;
+            double myDouble = myInt;
+            Console.WriteLine(myInt);
+            Console.WriteLine(myDouble);
+            
+            // Explicit Casting
+            double aDouble= 9.78;
+            int intTwo = (int)aDouble;
+            Console.WriteLine(aDouble);
+            Console.WriteLine(intTwo);
+
+            // Type Conversion Methods
+            int twoInt = 10;
+            double twoDouble = 5.25;
+            bool boolTwo = true;
+
+            Console.WriteLine(Convert.ToString(twoInt));    // convert int to string
+            Console.WriteLine(Convert.ToDouble(twoInt));    // convert int to double
+            Console.WriteLine(Convert.ToInt32(twoDouble));  // convert double to int
+            Console.WriteLine(Convert.ToString(boolTwo));   // convert bool to string
 
             // write code above this line in order to not have to start over (Practice Comment)
             Console.Write($"{Environment.NewLine}Press any key to exit...");
